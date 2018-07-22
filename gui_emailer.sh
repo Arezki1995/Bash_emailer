@@ -138,7 +138,7 @@ getDestEmail
 getPassword
 getReview
 
-#sendEmail -f $SMTPFROM -t $SMTPTO -u $SUBJECT -m $MESSAGE -s $SMTPADDRESS -xu $USERNAME -xp $PASSWORD -o tls=yes
+sendEmail -f $SMTPFROM -t $SMTPTO -u $SUBJECT -m $MESSAGE -s $SMTPADDRESS -xu $USERNAME -xp $PASSWORD -o tls=yes
 
 
 
